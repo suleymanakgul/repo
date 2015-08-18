@@ -28,7 +28,7 @@ namespace ConsoleApplication1
                 Console.WriteLine("Receive from " + inEndPoint + " " + Encoding.ASCII.GetString(buffer) + ".");
             });
 
-            Thread.Sleep(3000);
+            Thread.Sleep(1500);
 
             Console.ReadKey();
         }
