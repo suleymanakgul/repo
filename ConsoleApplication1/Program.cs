@@ -30,7 +30,7 @@ namespace ConsoleApplication1
 
             Thread.Sleep(1500);
 
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }
