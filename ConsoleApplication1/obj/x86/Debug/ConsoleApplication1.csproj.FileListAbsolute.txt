@@ -2,3 +2,4 @@ C:\Users\suleyman.akgul\Documents\Visual Studio 2010\Projects\ConsoleApplication
 C:\Users\suleyman.akgul\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 C:\Users\suleyman.akgul\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
 C:\Users\suleyman.akgul\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\suleyman.akgul\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

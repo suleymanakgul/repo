@@ -12,6 +12,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            // ThreadPoolo Example
             IPEndPoint localpt = new IPEndPoint(IPAddress.Loopback, 6000);
 
             ThreadPool.QueueUserWorkItem(delegate
@@ -27,16 +28,8 @@ namespace ConsoleApplication1
                 Console.WriteLine("Receive from " + inEndPoint + " " + Encoding.ASCII.GetString(buffer) + ".");
             });
 
-            Thread.Sleep(1000);
+            Thread.Sleep(1500);
 
-            /*
-            UdpClient udpServer2 = new UdpClient();
-            udpServer2.ExclusiveAddressUse = false;
-            udpServer2.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
-            udpServer2.Client.Bind(localpt);
-
-            udpServer2.Send(new byte[] { 0x41 }, 1, localpt);
-            */
             Console.Read();
         }
     }
