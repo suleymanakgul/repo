@@ -31,6 +31,8 @@ namespace ConsoleApplication1
             // Sleep time was inreased.
             Thread.Sleep(10000);
 
+            // git branch code
+
             Console.ReadKey();
         }
     }
