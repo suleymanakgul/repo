@@ -29,7 +29,7 @@ namespace ConsoleApplication1
             });
 
             // Sleep time was inreased.
-            Thread.Sleep(5000);
+            Thread.Sleep(10000);
 
             Console.ReadKey();
         }
